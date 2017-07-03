@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.scss">
+  <title>Poker Tournament</title>
+</head>
+<body>
+
+   <header>
+      <h1>Poker Texas Hold'em Tournament</h1>
+    </header>
+    <main>
+      <section class="table">
+        <div class="pot">POT</div>
+        <div class="hand">
+          <div class="card flop"></div>
+          <div class="card flop"></div>
+          <div class="card flop"></div>
+          <div class="card turn"></div>
+          <div class="card river"></div>
+        </div>
+
+
+        <div class="player user">
+          <h2 class="stack">500</h2>
+          <h3 class="name">User</h3>
+          <div class="cards">
+            <div class="card first-card"></div>
+            <div class="card second-card"></div>
+          </div>
+        </div>
+        <div class="player player1 hide">
+          <h2 class="stack">500</h2>
+          <h3 class="name">Player 1</h3>
+          <div class="cards">
+            <div class="card first-card"></div>
+            <div class="card second-card"></div>
+          </div>
+        </div>
+        <div class="player player2 hide">
+          <h2 class="stack">500</h2>
+          <h3 class="name">Player 2</h3>
+          <div class="cards">
+            <div class="card first-card"></div>
+            <div class="card second-card"></div>
+          </div>
+        </div>
+        <div class="player player3 hide">
+          <h2 class="stack">500</h2>
+          <h3 class="name">Player 3</h3>
+          <div class="cards">
+            <div class="card first-card"></div>
+            <div class="card second-card"></div>
+          </div>
+        </div>
+        <div class="player player4 hide">
+          <h2 class="stack">500</h2>
+          <h3 class="name">Player 4</h3>
+          <div class="cards">
+            <div class="card first-card"></div>
+            <div class="card second-card"></div>
+          </div>
+        </div>
+      </section>
+      <section class="btn-actions">
+        <button id="foldButton" class="btn">Fold</button>
+        <button id="checkButton" class="btn">Check</button>
+        <button id="callButton" class="btn">Call</button>
+        <button id="betButton" class="btn">Bet</button>
+        <input id="betQuantity" type="text" placeholder="0" value="">
+      </section>
+    </main>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/logic.js"></script>
+</body>
+</html>
